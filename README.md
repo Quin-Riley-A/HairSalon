@@ -46,6 +46,7 @@ $ dotnet tool install -g dotnet-script
 4. Configure your local environment to use this. Details for which can be found [here](https://www.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-dotnet-script).
 5. Then, install MySQL. Follow further detailed instructions on accomplishing that [here](https://www.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-and-configuring-mysql).
 
+### Repository Setup
 1. Clone this repository.
 2. Open your shell (e.g. Terminal or GitBash) and navigate to this project's production directory called "HairSalon".
 3. Within the HairSalon folder, create a file titled appsettings.json
@@ -61,7 +62,6 @@ $ dotnet tool install -g dotnet-script
 6. Replace [uid] and [pwd] with your created SQL username and password respectively (including the braces).
 
 ### Import the Database
-
 1. Open MySQL Workbench and find the Navigator pane (with the screen full, it appears on the left hand side.)
 2. Select "Data Import/Restore", which opens Data Import page.
 3. Select the option labeled "Import from Self Contained File". Navigate to the top level of directory of files you downloaded from this repository ("HairSalon").
