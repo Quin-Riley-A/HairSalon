@@ -58,7 +58,7 @@ $ dotnet tool install -g dotnet-script
   }
 }
 ```
-6. Replace [uid] and [pwd] with your created SQL username and password respectively.
+6. Replace [uid] and [pwd] with your created SQL username and password respectively (including the braces).
 
 ### Import the Database
 
